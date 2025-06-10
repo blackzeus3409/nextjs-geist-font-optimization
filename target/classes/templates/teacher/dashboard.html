@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout :: layout(~{::title},~{::content},~{})}">
+<head>
+    <title>Öğretmen Paneli</title>
+</head>
+<body>
+<div th:fragment="content">
+    <h2>Dersler</h2>
+    <form th:action="@{/teacher/courses/add}" method="post" class="mb-3">
+        <div class="form-group">
+            <label for="name">Ders Adı:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Ders Ekle</button>
+    </form>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Ders Adı</th>
+            <th>Yoklama</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="course : ${courses}">
+            <td th:text="${course.name}"></td>
+            <td>
+                <a th:href="@{/attendance/{courseId}(courseId=${course.id})}" class="btn btn-info">Yoklama Al</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
