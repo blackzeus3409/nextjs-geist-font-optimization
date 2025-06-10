@@ -1,0 +1,10 @@
+INSERT INTO student (name, student_number) VALUES ('Ahmet Yılmaz', 'S001');
+INSERT INTO student (name, student_number) VALUES ('Mehmet Demir', 'S002');
+INSERT INTO student (name, student_number) VALUES ('Ayşe Kaya', 'S003');
+INSERT INTO student (name, student_number) VALUES ('Fatma Çelik', 'S004');
+INSERT INTO student (name, student_number) VALUES ('Ali Şahin', 'S005');
+INSERT INTO student (name, student_number) VALUES ('Zeynep Aydın', 'S006');
+INSERT INTO student (name, student_number) VALUES ('Mustafa Koç', 'S007');
+INSERT INTO student (name, student_number) VALUES ('Emine Yıldız', 'S008');
+INSERT INTO student (name, student_number) VALUES ('Hüseyin Arslan', 'S009');
+INSERT INTO student (name, student_number) VALUES ('Selin Polat', 'S010');
