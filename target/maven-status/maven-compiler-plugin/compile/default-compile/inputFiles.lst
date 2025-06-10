@@ -1,0 +1,17 @@
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/AttendanceApplication.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/model/Student.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/controller/AuthController.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/repository/CourseRepository.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/service/UserService.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/config/SecurityConfig.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/model/Course.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/repository/TeacherRepository.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/model/Teacher.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/model/Attendance.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/repository/AttendanceRepository.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/controller/TeacherController.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/controller/AttendanceController.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/service/AttendanceService.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/controller/AdminController.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/service/CourseService.java
+/project/sandbox/user-workspace/src/main/java/com/yourorg/attendance/repository/StudentRepository.java
